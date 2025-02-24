@@ -1,6 +1,6 @@
-a = input("Введите число A: ")
-b = input("Введите число B: ")
+a = float(input("Введите число A: "))
+b = float(input("Введите число B: "))
 
-x = (0 - int(b)) / int(a)
+x = -b / a
 
 print ("Число Х = ", x)
